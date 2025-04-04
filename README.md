@@ -1,11 +1,9 @@
 # ActividadDespliegue
-Hacer un proyectito de datos
+Hacer un proyectito de datos con regresión logística
 
+## Paso 1:
 
-Departamento de datos - Luis
+## Paso 2:
 
+## Paso 3:
 
-Deoartamento de modelos - Adalia y Angel
-
-
-Deparatmento de cómputo en la nube - Axel y Valeria
