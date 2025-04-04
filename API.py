@@ -49,7 +49,7 @@ def main():
         result = json.loads(response.json())
         print(result)
         test_data["Exited"] = result
-        display(test_data)
+        print(test_data)
     else:
         print(f"Error: {response.text}")
 
