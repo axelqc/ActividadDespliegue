@@ -46,12 +46,12 @@ def main():
     response = requests.post(scoring_uri, data=data_json, headers=headers)
 
     if response.status_code == 200:
-    result = json.loads(response.json())
-    print(result)
-    test_data["Exited"] = result
-    display(test_data)
+        result = json.loads(response.json())
+        print(result)
+        test_data["Exited"] = result
+        display(test_data)
     else:
-    print(f"Error: {response.text}")
+        print(f"Error: {response.text}")
 
 if __name__ == "__main__":
     main()
